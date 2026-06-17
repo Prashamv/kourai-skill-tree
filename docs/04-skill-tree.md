@@ -1,168 +1,166 @@
 # Kourai Skill Tree
 
-## 1. AI and Prompt Engineering
+## 1. AI Behavior and Prompt Systems
 
-Through PHINN and Kourai, I learned how to design AI behavior beyond simple text generation.
+Designing PHINN helped turn AI output from generic text into controlled agent behavior.
 
-Skills developed:
+Skills:
 
 - Persona design
 - Brand voice control
-- Prompt structure
 - Output constraints
-- Tone rules
-- Safety rules
+- Tone and safety rules
 - Platform-specific writing
 - Context-aware generation
 
-Applied through:
+Kourai example: PHINN uses structured behavior and review expectations for X/Twitter strategy, drafts, and replies.
 
-- PHINN's personality system
-- X/Twitter reply generation
-- Strategy generation
-- Content draft creation
-- Risk-aware response design
+## 2. Python Application Development
 
-## 2. Python Development
+Kourai moved from small scripts into a more organized Python application.
 
-Kourai helped me move from small scripts into more organized Python workflows.
+Skills:
 
-Skills developed:
+- Modular file organization
+- Reusable task runners
+- Environment and dependency debugging
+- Error handling
+- Refactoring JSON workflows into SQLite workflows
+- Separating core logic from local workflow scripts
 
-- Writing reusable scripts
-- Organizing project folders
-- Running local workflows
-- Managing environment variables
-- Handling errors
-- Working with modules
-- Refactoring messy files into cleaner systems
+Kourai example: The private build uses a modular task orchestrator instead of isolated one-off scripts.
 
-Applied through:
+## 3. Workflow Orchestration and Automation
 
-- Task runner scripts
-- Local dry-run workflows
-- Agent-based modules
-- Platform-specific files
+Kourai is built as a sequence of inspectable workflow steps.
 
-## 3. Workflow Automation
-
-Kourai is built around multi-step workflows instead of single AI outputs.
-
-Skills developed:
+Skills:
 
 - Task orchestration
 - Sequential workflow design
-- Dry-run testing
-- Approval gates
-- Logging
-- Status tracking
-- Human-in-the-loop automation
+- Run status tracking
+- Analyze-only execution
+- Human-in-the-loop approval
+- Reproducible bootstrap testing
 
-Applied through:
+Kourai example: The PHINN bootstrap workflow validates database setup, migrations, account sync, ranking, and reporting while live posting remains disabled.
 
-- Strategy generation
-- Content draft generation
-- Enhancement workflow
-- Gatekeeper review
-- Reply generation
-- Auto-reply dry runs
+## 4. SQLite Database Engineering
 
-## 4. Database and Memory Systems
+The project now uses SQLite-backed structured memory for workflow state and learning inputs.
 
-The project is moving from file-based storage toward database-backed memory and migration-aware schema changes.
+Skills:
 
-Skills developed:
-
-- SQLite planning
-- Database-first workflow design
-- Structured data storage
-- Content history tracking
-- Draft/review/log records
-- Schema migration planning
-- Historical post ranking
-- Performance snapshot modeling
+- Relational schema design
+- Foreign-key-based account scoping
+- Structured content records
+- Historical performance storage
 - Voice profile storage
-- Preparing data for future analytics
+- Querying workflow history
 
-Applied through planned or active tables:
+Kourai example: Runs, content records, account records, historical posts, and performance signals can be connected through account-aware storage.
 
-- users
-- social_accounts
-- platform_connections
-- runs
-- strategies
-- content_drafts
-- content_reviews
-- query_pools
-- query_history
-- x_targets
-- generated_replies
-- post_logs
-- post_performance
-- historical_posts
-- historical_post_rankings
-- voice_profiles
-- personality_traits
+## 5. Schema Migrations, Backups, and Data Safety
 
-## 5. Product and Business Thinking
+The database foundation includes migration tracking and backup behavior.
 
-Kourai connects my business background with AI system design.
+Skills:
 
-Skills developed:
+- Migration development
+- Schema version tracking
+- Database validation
+- Automated backups
+- Temporary test databases
+- Separating backups from active databases
+
+Kourai example: The private workflow validates schema state before running and creates backups during setup and testing.
+
+## 6. Analytics, Reporting, and Inspection Tools
+
+Kourai needs human-readable ways to inspect stored workflow data.
+
+Skills:
+
+- Report generation
+- Human-readable database exports
+- Account reports
+- Performance reports
+- Database viewing
+- Analytics exploration
+
+Kourai example: Reports and inspection tools help review account, workflow, and performance state without exposing raw private data publicly.
+
+## 7. Account-Aware Software Architecture
+
+The product direction requires records to belong to the right account and platform context.
+
+Skills:
+
+- Account-aware workflow design
+- Social account modeling
+- Platform connection modeling
+- Run context propagation
+- Multi-account planning
+- Campaign and product ownership modeling
+
+Kourai example: Workflow runs carry account, social account, platform, autonomy, and status context.
+
+## 8. AI Learning-System Design
+
+The learning engine is being built around owned historical content and performance signals.
+
+Skills:
+
+- Historical post importing
+- Historical post ranking
+- Writing-style analysis
+- Tone and personality trait detection
+- Adaptive voice profiles
+- Performance-based recommendation planning
+
+Kourai example: Historical posts and rankings provide the foundation for future strategy recommendations.
+
+## 9. Product and Marketing Strategy
+
+Kourai connects AI system design with a real marketing workflow problem.
+
+Skills:
 
 - Product positioning
 - Marketing workflow design
-- MVP planning
 - Brand safety thinking
-- User approval design
-- Competitive differentiation
-- Public/private repo strategy
+- Campaign planning
+- Approval workflow design
+- Multi-platform roadmap planning
 
-Applied through:
+Kourai example: Kourai is positioned as a middle layer between social platforms, marketing teams, analytics, and future advertising workflows.
 
-- Positioning Kourai as a middle layer for marketing teams
-- Protecting private product logic
-- Creating a public portfolio case study
-- Planning expansion to TikTok, Instagram, and analytics
+## 10. Git, GitHub, Documentation, and Repository Security
 
-## 6. Software Architecture
+The public repository is intentionally separate from the private product codebase.
 
-The project forced me to think about how a real system should be structured.
+Skills:
 
-Skills developed:
+- Repository cleanup
+- Public-safe documentation
+- Sanitized examples
+- GitHub portfolio presentation
+- Separating public material from private intellectual property
+- Avoiding credential, prompt, database, and account-data leaks
 
-- Modular architecture
-- Separation of concerns
-- Agent/platform/core structure
-- Private production code management
-- Public documentation strategy
-- System diagrams
-- Run context propagation
-- Account-aware workflow design
+Kourai example: The skill-tree repo documents progress through summaries, diagrams, fake examples, and dated updates instead of production code.
 
-Applied through:
+## 11. AI-Assisted Development with Codex
 
-- Agents such as PHINN
-- Platform modules for X/Twitter
-- Core orchestration layer
-- Database-backed task pipeline
-- Learning loops based on owned historical content
+Codex has been used as a coding collaborator while keeping architecture and safety decisions human-reviewed.
 
-## 7. Public Documentation and Repo Hygiene
+Skills:
 
-Kourai also required deciding what belongs in public and what must stay private.
+- Inspecting an existing codebase
+- Modifying docs and code safely
+- Validating changes with local commands
+- Reviewing git status and diffs
+- Debugging environment issues
+- Turning private progress into public-safe documentation
 
-Skills developed:
-
-- Public case-study writing
-- Sanitized progress updates
-- Avoiding secret, credential, prompt, API, database, and raw-data leaks
-- Keeping update logs readable over time
-- Explaining system design without publishing production implementation
-
-Applied through:
-
-- This public skill-tree repository
-- Dated public-safe update notes
-- Mock examples instead of real records
-- High-level diagrams instead of production code
+Kourai example: Codex helped inspect, modify, validate, and document the project while preserving the public/private boundary.

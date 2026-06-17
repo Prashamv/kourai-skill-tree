@@ -1,33 +1,31 @@
 # Project Overview
 
-Kourai is an AI-assisted marketing workflow system for social content strategy, content creation, review, and future analytics.
+Kourai is an active early-stage product prototype for AI-assisted social content workflows. It helps explore how marketing teams could move from goals to strategy, drafts, review, reports, and performance-informed recommendations.
 
-The project started as an experimental AI persona called PHINN. PHINN was used to explore how an AI agent could develop a recognizable voice, generate social content ideas, review outputs for safety and quality, and support a dry-run posting workflow.
+PHINN is the first working agent inside Kourai. It began as an experimental AI persona and now serves as the initial test case for agent behavior, content workflows, safety review, and account-aware memory.
 
-Over time, the project shifted from a one-off AI persona into a broader product idea: a system where brands can use AI agents to plan content, draft posts, review risks, and learn from performance over time.
+X/Twitter is the current platform focus. Instagram, TikTok, and additional platforms are planned for later phases after the foundation, learning loop, and user-facing controls are stronger.
 
 ## Problem
 
-Marketing teams and creators often struggle with:
+Marketing teams and creators often need a better way to:
 
-- keeping social content consistent
-- adapting tone for each platform
-- reviewing AI-generated content safely
-- turning performance data into better future ideas
-- managing approval workflows before posting
+- keep social content consistent
+- adapt tone for each platform
+- review AI-generated content safely
+- connect past performance to future ideas
+- manage approval workflows before anything is published
 
-Kourai is designed as a middle layer between AI generation and real social media publishing.
+Kourai is designed as a middle layer between social platforms, marketing teams, analytics, and future advertising workflows.
+
+## Current Stage
+
+- Foundation and database systems are implemented.
+- The learning engine is the current development focus.
+- User interface work and additional platform integrations come later.
 
 ## Product Direction
 
-The long-term goal is to support:
+Kourai is intended to support strategy generation, content drafting, approval-first review, brand voice memory, analytics-backed recommendations, and eventually multi-account campaign coordination.
 
-- strategy generation
-- content drafts
-- approval-first workflows
-- brand voice systems
-- risk review
-- multi-platform social planning
-- analytics-backed recommendations
-
-The current public repo is a case study, not the private product codebase.
+The current public repo is a case study. It does not contain the private production codebase.

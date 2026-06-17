@@ -7,9 +7,9 @@ flowchart TD
     C --> D[Enhancement Step]
     D --> E[Gatekeeper Review]
     E --> F{Approved?}
-    F -->|Yes| G[Ready for Posting / Scheduling]
+    F -->|Yes| G[Human-Approved Queue]
     F -->|No| H[Revise or Reject]
-    G --> I[Post Log]
+    G --> I[Dry-Run Log]
     I --> J[Performance Data]
     J --> B
     J --> K[Voice and Ranking Memory]

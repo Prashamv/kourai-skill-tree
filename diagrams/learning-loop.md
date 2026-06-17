@@ -11,7 +11,7 @@ flowchart TD
     F --> G
     G --> H[Future Content Recommendations]
     H --> I[Human Approval]
-    I --> J[Dry Run or Scheduled Publishing]
+    I --> J[Dry Run Log]
     J --> K[Post Logs]
     K --> D
 ```

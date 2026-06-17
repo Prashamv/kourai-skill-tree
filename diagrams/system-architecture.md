@@ -9,10 +9,14 @@ flowchart LR
     O --> R[Review Gatekeeper]
     O --> P[Platform Layer]
     O --> L[Learning Loop]
+    O --> Q[Reports and Inspection Tools]
     S --> M[(Structured Memory)]
     D --> M
     R --> M
     P --> M
     L --> M
+    M --> Q
     M --> A[Analytics and Future Recommendations]
+    A --> UI[Future Chat-Based Interface]
+    Q --> UI
 ```

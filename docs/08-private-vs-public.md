@@ -1,35 +1,32 @@
 # Private vs Public Development
 
-Kourai is being developed as a private product codebase. The public repository does not include production scripts, API logic, prompt chains, scoring systems, or automation workflows.
+Kourai is being developed as a private product codebase with a separate public case-study repository.
 
-## Kept Private
+The public repo is meant to show product thinking, architecture, skills, roadmap, and sanitized progress. It is not meant to expose the production system.
 
-- Production Python scripts
-- API integrations
-- Environment variables
-- Credentials and tokens
-- Prompt chains
-- PHINN persona logic
-- Target selection logic
-- Gatekeeper scoring rules
-- Database implementation details
-- Local databases and database backups
-- Raw social account data
-- Raw historical posts
-- Posting and automation logic
+## Safe to Publish
 
-## Shared Publicly
-
-- Product overview
-- Architecture summary
-- Skill tree
-- Mock examples
-- Roadmap
-- Lessons learned
-- Sanitized dated updates
+- Sanitized architecture
 - High-level diagrams
-- Public case study documentation
+- Mock records
+- Generalized workflow descriptions
+- Skill documentation
+- Test summaries without secrets or user data
+- Public roadmap notes
+- Portfolio-oriented lessons learned
 
-## Why
+## Must Remain Private
 
-The goal of the public repo is to demonstrate the skills and system thinking developed through Kourai while protecting the product's actual implementation.
+- Production source code
+- Exact prompts and prompt chains
+- Credentials and environment files
+- Databases and backups
+- Real social-account data
+- Private analytics
+- Proprietary scoring and ranking logic
+- Live posting integrations
+- Internal agent instructions
+
+## Rule of Thumb
+
+Public material should explain what the system does, what skills were developed, and how the product is structured. Private material includes anything that would reveal implementation details, account data, credentials, prompts, or proprietary automation logic.

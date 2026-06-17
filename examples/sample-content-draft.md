@@ -1,21 +1,25 @@
 # Sample Content Draft
 
-This is a mock draft for demonstration only.
+This example is illustrative and does not represent real Kourai account data.
 
 ## Input
 
-Campaign goal: explain why approval workflows matter for AI-generated marketing content.
-
-## Mock Draft
-
-"AI can draft fast, but your brand still needs a checkpoint before the internet sees it."
-
-## Metadata
-
-| Field | Value |
+| Field | Example |
 |---|---|
-| Platform | Social media |
-| Tone | Clear, practical |
-| Character Count | 85 |
+| Account | acct_demo_brand |
+| Social Handle | @demo_brand |
+| Platform | X/Twitter |
+| Campaign | Demo Launch |
+| Goal | Explain why human approval matters for AI-assisted content |
+
+## Draft
+
+"AI can draft fast, but your brand still needs a human checkpoint before anything goes live."
+
+## Public-Safe Metadata
+
+| Field | Example |
+|---|---|
+| Tone | Clear and practical |
 | Risk Level | Low |
-| Status | Draft |
+| Status | Needs review |

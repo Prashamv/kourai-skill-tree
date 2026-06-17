@@ -1,31 +1,24 @@
 # Product Vision
 
-Kourai is intended to become an AI marketing workflow system for brands, creators, and small teams.
+Kourai is intended to become an operating layer for marketing teams that need AI assistance without giving up control of brand voice, approvals, analytics, or account context.
 
-The product is not just a content generator. It is a workflow layer that helps users move from goals to strategy, from strategy to drafts, from drafts to review, and from review to performance learning.
+The product direction is not just content generation. Kourai is being shaped as a workflow system where teams can use chat-based control, modular account tools, campaign memory, approval states, reports, and analytics-informed recommendations from one place.
 
 ## Vision
 
-Help teams create better social content with AI while keeping humans in control of brand voice, approval, and risk.
+Help brands and teams plan, draft, review, and learn from social content while keeping humans responsible for final decisions.
 
-## Core Users
+## Product Direction
 
-- small business owners
-- marketing teams
-- creators
-- agencies
-- brand managers
-
-## Long-Term Capabilities
-
-- brand voice profiles
-- campaign planning
-- platform-specific content generation
-- approval workflows
-- analytics feedback loops
-- multi-account support
-- reusable strategy memory
+- Chat-based control for workflows and reports
+- Modular account, campaign, product, and analytics tools
+- Support for brands with multiple social accounts
+- X/Twitter as the first platform test case
+- Instagram, TikTok, and additional platforms in later phases
+- Performance-informed recommendations
+- Human approval first
+- Optional future autonomy only after explicit authorization
 
 ## Product Principle
 
-AI should speed up the workflow, but humans should control the final decision.
+AI should make marketing workflows faster and more informed, but users should control publishing, risk tolerance, and brand direction.

@@ -1,27 +1,30 @@
 # Sample Database Records
 
-This file shows mock database-style records. These are not real Kourai records.
+This example is illustrative and does not represent real Kourai account data. The fields are simplified for public documentation.
 
-## strategies
+## Account Context
 
-| id | agent | platform | topic | status |
-|---|---|---|---|---|
-| 1 | demo_agent | social | launch planning | completed |
+| Field | Example |
+|---|---|
+| Account ID | acct_demo_brand |
+| Social Account ID | social_demo_x |
+| Platform | X/Twitter |
+| Handle | @demo_brand |
 
-## content_drafts
+## Workflow Record
 
-| id | strategy_id | draft_text | risk_level | status |
-|---|---|---|---|---|
-| 12 | 1 | AI can draft fast, but your brand still needs a checkpoint. | low | reviewed |
+| Field | Example |
+|---|---|
+| Run | demo_launch_review |
+| Campaign | Demo Launch |
+| Autonomy | analyze_only |
+| Status | completed |
 
-## content_reviews
+## Content Record
 
-| id | draft_id | quality_score | risk_score | decision |
-|---|---|---|---|---|
-| 31 | 12 | 8 | 2 | approve_with_human_review |
-
-## post_logs
-
-| id | draft_id | platform | status |
-|---|---|---|---|
-| 44 | 12 | social | dry_run_only |
+| Field | Example |
+|---|---|
+| Topic | launch planning |
+| Draft | AI can draft fast, but approval keeps the brand in control. |
+| Review Decision | needs_human_review |
+| Publishing State | posting_disabled |

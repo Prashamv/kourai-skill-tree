@@ -1,42 +1,66 @@
 # Roadmap
 
-## Phase 1: Prototype
+## Phase 1 — Foundation and Database
 
-- Build PHINN as an experimental persona
-- Generate social content strategies
-- Draft posts and replies
-- Add local dry-run posting behavior
-- Add basic gatekeeper review
+### Completed
 
-## Phase 2: Structured Workflow
+- Users, social accounts, and platform connections
+- Account-linked records
+- Core strategy and content records
+- Voice, personality, audience, performance, campaign, and product structures
+- Migration framework
+- Schema tracking
+- Backup system
+- Human-readable exports
+- Account and performance reports
+- Database viewer
+- Analytics explorer
 
-- Move from file-based storage to SQLite
-- Add records for strategies, drafts, reviews, targets, replies, and logs
-- Improve workflow orchestration
-- Add clearer safety and approval states
-- Add account, social account, and platform connection context
-- Add migration tracking for schema changes
+### Remaining
 
-## Phase 3: Product Layer
+- Multiple-social-account workflow validation
+- Account memory viewer
+- Voice profile viewer
+- Strategy history viewer
 
-- Add brand profiles
-- Add campaign objects
-- Add user-facing controls
-- Add approval dashboards
-- Add analytics summaries
+## Phase 2 — Learning Engine
 
-## Phase 4: Multi-Platform Expansion
+### Active Development
 
-- TikTok strategy support
-- Instagram caption support
-- LinkedIn content workflows
-- Cross-platform campaign planning
+- Import owned historical posts
+- Rank historical performance
+- Analyze writing style
+- Detect tone and personality traits
+- Produce adaptive voice profiles
+- Connect performance signals to recommendations
 
-## Phase 5: Learning System
+## Phase 3 — Marketing Intelligence
 
-- Track performance data
-- Rank historical posts
-- Analyze owned content for voice traits
-- Learn which topics and tones work best
-- Improve recommendations over time
-- Build feedback loops for content strategy
+- Topic performance analysis
+- Audience and regional insights
+- Posting-time analysis
+- Campaign and product intelligence
+- Recommendation generation
+
+## Phase 4 — Product Interface
+
+- Chat-based control
+- Approval dashboard
+- Account settings
+- Analytics views
+- Report access
+- Workflow controls
+
+## Phase 5 — Platform Expansion
+
+- Instagram
+- TikTok
+- Additional platforms
+- Cross-platform campaign coordination
+
+## Phase 6 — Controlled Automation
+
+- Scheduling
+- Explicit posting authorization
+- Configurable approval requirements
+- Monitored autonomous workflows

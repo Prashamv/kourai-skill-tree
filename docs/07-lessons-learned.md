@@ -2,28 +2,32 @@
 
 ## AI Systems Need Structure
 
-Strong prompts are useful, but workflows need structure around them. A good AI product needs clear inputs, outputs, review states, and logging.
+Strong prompts are useful, but workflows need clear inputs, outputs, review states, logs, and failure points. Kourai became easier to reason about once PHINN work was routed through repeatable tasks.
 
-## Safety Should Be Designed Early
+## Relational Memory Changes the Product
 
-Approval gates, risk scoring, and dry-run behavior are easier to design early than to bolt on later.
+Moving from JSON files to a relational database made the project feel more like a product system. Account context, run history, content records, performance data, and voice learning can now connect instead of living as separate artifacts.
 
-## Files Are Good for Prototypes
+## Migrations Should Start Early
 
-JSON files are useful while learning. But as soon as workflows become multi-step, structured database records become more important.
+Schema migrations are easier to introduce before the database becomes large and hard to change. Version tracking, validation, and migration history make future changes less risky.
 
-## Product Thinking Matters
+## Temporary Databases Make Testing Safer
 
-The technical system only matters if it solves a real workflow problem. Kourai became stronger when it shifted from "AI persona" to "marketing workflow system."
+Disposable temporary databases are useful for validating setup and bootstrap behavior without risking the active local database. They make end-to-end workflow testing more repeatable.
 
-## Public and Private Work Should Be Separated
+## Backups Need Their Own Boundary
 
-The real product code should stay private. A public case study can still show learning, architecture, product thinking, and technical growth without leaking the implementation.
+Backups protect the local database, but they should not be confused with public artifacts. Keeping backups separate from active databases also makes repository safety easier.
 
-## Learning Systems Need Ownership Context
+## Every Workflow Record Needs Ownership Context
 
-Once Kourai started storing account, social account, platform, run, and performance context together, the product became easier to reason about. A useful AI workflow needs to know which account generated the data, which platform it came from, and which run created or used it.
+Connecting workflow records to account context is essential for a product that may support multiple users, social accounts, campaigns, and platforms.
 
-## Updates Need Structure Too
+## Validate the Whole Bootstrap
 
-A public case-study repo becomes more useful when progress is added through a repeatable update pattern. Dated notes, fake examples, and high-level diagrams make it easier to show growth without exposing private product logic.
+Testing isolated scripts is helpful, but the real confidence comes from validating the full bootstrap path: database setup, migrations, backup creation, account sync, workflow execution, reports, and safety mode.
+
+## AI Coding Tools Still Need Review
+
+Codex can inspect, modify, validate, and document a codebase quickly, but architecture decisions, test results, public/private boundaries, and product claims still need careful human review.

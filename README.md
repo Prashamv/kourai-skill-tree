@@ -1,52 +1,53 @@
 # Kourai Skill Tree
 
-Kourai is an AI-assisted social media workflow system designed to help brands generate platform-specific strategies, draft content, review AI outputs, and learn from performance data over time.
+Kourai is an early-stage AI marketing workflow prototype for social content strategy, content generation, review, reporting, and performance learning.
 
-The project began as PHINN, an experimental AI persona for X/Twitter, and has evolved into a modular product concept focused on AI agents, content workflows, approval systems, database-backed memory, and marketing automation.
+PHINN is the first working agent, and X/Twitter is the first platform test case. The private product codebase uses a modular Python workflow system with SQLite-backed memory, account-aware records, schema migrations, reporting tools, and approval-first automation.
 
-This repository is a public case study documenting the skills, architecture, and product thinking developed while building Kourai. The production codebase is private to protect the product logic, prompt chains, API integrations, and automation workflow.
-
-## Start Here
-
-- [Reading Guide](docs/00-reading-guide.md) gives the fastest path through the repo
-- [Project Overview](docs/01-project-overview.md) explains what Kourai is
-- [Architecture](docs/02-architecture.md) explains the system shape
-- [Workflow Breakdown](docs/03-workflow-breakdown.md) explains the main pipeline
-- [Skill Tree](docs/04-skill-tree.md) tracks the skills developed through the project
-- [Updates](updates/README.md) keeps dated progress notes without exposing private code
-- [Private vs Public](docs/08-private-vs-public.md) defines what stays out of this repo
+This public repository is a sanitized portfolio case study. It documents the product thinking, architecture, skills, roadmap, and lessons learned without exposing production source code, prompts, credentials, API logic, databases, account data, or proprietary implementation details.
 
 ## Current Progress
 
-- Built an early AI persona system through PHINN
-- Designed platform-specific social media workflows
-- Created a local dry-run task pipeline
-- Added approval-first automation logic
-- Moved the prototype toward SQLite-backed workflow memory
-- Developed a modular architecture around agents, platforms, and core orchestration
-- Added early account, platform, performance, historical post, ranking, and voice-profile concepts
-- Created a product roadmap for expanding toward TikTok, Instagram, analytics, and brand strategy tools
+### Implemented Foundation
 
-## Why This Repo Exists
+- Modular Python workflow orchestration
+- SQLite-backed structured memory
+- Account-aware schema and workflow records
+- Migrations, schema tracking, validation, and database backups
+- Human-readable exports, reports, database inspection, and analytics exploration
+- Strategy, draft, review, reply, logging, run, and historical-ranking records
+- Validated PHINN bootstrap workflow
+- Analyze-only operation with live posting disabled
 
-This repo documents what I have learned while building Kourai, including AI workflow design, Python scripting, prompt engineering, product thinking, database planning, and marketing automation strategy.
+### In Development
 
-The goal is to show my growth as a builder and demonstrate how business, AI, and software systems can connect into a real product.
+- Historical-post importing
+- Voice and personality analysis
+- Adaptive voice profiles
+- Performance-based recommendations
+- Account memory and strategy-history interfaces
+
+### Planned Product Expansion
+
+- Chat-based product interface
+- Approval dashboard
+- Richer marketing intelligence
+- Instagram and TikTok support
+- Multi-platform campaigns
+- Optional controlled automation after explicit authorization
 
 ## Repo Map
 
-- `docs/` explains the product concept, architecture, roadmap, and lessons learned
-- `updates/` contains sanitized dated build notes
-- `examples/` shows mock outputs using fake data
-- `diagrams/` contains Mermaid workflow and architecture diagrams
-- `mock-code/` contains safe simplified examples, not production Kourai code
+- [docs/](docs/00-reading-guide.md) explains the product, architecture, roadmap, skill tree, and public/private boundary
+- [updates/](updates/README.md) contains sanitized dated build notes
+- [examples/](examples/sample-database-records.md) contains fictional public-safe records and outputs
+- [diagrams/](diagrams/system-architecture.md) contains high-level Mermaid diagrams
+- [mock-code/](mock-code/mock_task_orchestrator.py) contains simplified examples only
 
-## Public Safety Rules
+## Privacy Statement
 
-- Do not publish production scripts, prompt chains, API integrations, credentials, local databases, database backups, or raw account data
-- Use summaries, diagrams, fake examples, and sanitized learning notes instead of private implementation details
-- Keep this repo useful for portfolio reading without turning it into a copy of the private product repo
+This repo is intentionally not the production Kourai codebase. Public material is limited to sanitized architecture, documentation, diagrams, mock examples, and progress summaries.
 
 ## Achievement Statement
 
-I built Kourai from an experimental AI persona into an early-stage AI marketing workflow system with agent-based content generation, approval-first automation, database-backed memory, historical performance learning, and a roadmap toward multi-platform social media strategy.
+Kourai has grown from an experimental AI persona into an account-aware AI marketing workflow prototype with structured memory, migration-backed SQLite storage, reporting tools, human-controlled review, and a path toward analytics-informed multi-platform content operations.

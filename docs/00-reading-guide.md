@@ -4,7 +4,7 @@ This repo is organized as a public case study for Kourai. It is designed to be r
 
 ## Fast Path
 
-1. Read [Project Overview](01-project-overview.md) for the product idea.
+1. Read [Project Overview](01-project-overview.md) for the product prototype.
 2. Read [Architecture](02-architecture.md) for the system model.
 3. Read [Workflow Breakdown](03-workflow-breakdown.md) for the main pipeline.
 4. Read [Skill Tree](04-skill-tree.md) for the builder skills developed.
@@ -28,4 +28,4 @@ When a private build milestone happens, add a short file under `updates/` and li
 - what remains private
 - what the next public-safe milestone is
 
-Do not copy private source code, prompts, credentials, real account data, database files, database backups, or raw social content into this repo.
+Do not copy private source code, prompts, credentials, real account data, database files, database backups, raw social content, or proprietary scoring logic into this repo.
