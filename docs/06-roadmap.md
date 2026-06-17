@@ -14,6 +14,8 @@
 - Add records for strategies, drafts, reviews, targets, replies, and logs
 - Improve workflow orchestration
 - Add clearer safety and approval states
+- Add account, social account, and platform connection context
+- Add migration tracking for schema changes
 
 ## Phase 3: Product Layer
 
@@ -33,6 +35,8 @@
 ## Phase 5: Learning System
 
 - Track performance data
+- Rank historical posts
+- Analyze owned content for voice traits
 - Learn which topics and tones work best
 - Improve recommendations over time
 - Build feedback loops for content strategy

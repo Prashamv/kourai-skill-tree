@@ -7,11 +7,15 @@ Kourai is being developed as a private product codebase. The public repository d
 - Production Python scripts
 - API integrations
 - Environment variables
+- Credentials and tokens
 - Prompt chains
 - PHINN persona logic
 - Target selection logic
 - Gatekeeper scoring rules
 - Database implementation details
+- Local databases and database backups
+- Raw social account data
+- Raw historical posts
 - Posting and automation logic
 
 ## Shared Publicly
@@ -22,6 +26,8 @@ Kourai is being developed as a private product codebase. The public repository d
 - Mock examples
 - Roadmap
 - Lessons learned
+- Sanitized dated updates
+- High-level diagrams
 - Public case study documentation
 
 ## Why

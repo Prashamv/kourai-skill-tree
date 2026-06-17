@@ -12,4 +12,6 @@ flowchart TD
     G --> I[Post Log]
     I --> J[Performance Data]
     J --> B
+    J --> K[Voice and Ranking Memory]
+    K --> B
 ```

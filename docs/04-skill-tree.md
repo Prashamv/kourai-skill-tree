@@ -69,7 +69,7 @@ Applied through:
 
 ## 4. Database and Memory Systems
 
-The project is moving from file-based storage toward database-backed memory.
+The project is moving from file-based storage toward database-backed memory and migration-aware schema changes.
 
 Skills developed:
 
@@ -78,10 +78,18 @@ Skills developed:
 - Structured data storage
 - Content history tracking
 - Draft/review/log records
+- Schema migration planning
+- Historical post ranking
+- Performance snapshot modeling
+- Voice profile storage
 - Preparing data for future analytics
 
 Applied through planned or active tables:
 
+- users
+- social_accounts
+- platform_connections
+- runs
 - strategies
 - content_drafts
 - content_reviews
@@ -90,6 +98,11 @@ Applied through planned or active tables:
 - x_targets
 - generated_replies
 - post_logs
+- post_performance
+- historical_posts
+- historical_post_rankings
+- voice_profiles
+- personality_traits
 
 ## 5. Product and Business Thinking
 
@@ -124,6 +137,8 @@ Skills developed:
 - Private production code management
 - Public documentation strategy
 - System diagrams
+- Run context propagation
+- Account-aware workflow design
 
 Applied through:
 
@@ -131,3 +146,23 @@ Applied through:
 - Platform modules for X/Twitter
 - Core orchestration layer
 - Database-backed task pipeline
+- Learning loops based on owned historical content
+
+## 7. Public Documentation and Repo Hygiene
+
+Kourai also required deciding what belongs in public and what must stay private.
+
+Skills developed:
+
+- Public case-study writing
+- Sanitized progress updates
+- Avoiding secret, credential, prompt, API, database, and raw-data leaks
+- Keeping update logs readable over time
+- Explaining system design without publishing production implementation
+
+Applied through:
+
+- This public skill-tree repository
+- Dated public-safe update notes
+- Mock examples instead of real records
+- High-level diagrams instead of production code

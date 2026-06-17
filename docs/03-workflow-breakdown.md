@@ -53,3 +53,18 @@ Review fields:
 ## Logging and Memory
 
 Every important workflow step should create structured records. This makes future analytics, approvals, audits, and recommendations possible.
+
+## Account Learning Workflow
+
+Kourai is being expanded with a learning workflow that can study owned historical content before generating new recommendations.
+
+Expected steps:
+
+- sync social account metadata
+- collect or import historical posts
+- store performance snapshots
+- rank historical posts by useful time windows
+- analyze voice and style traits
+- feed the resulting memory into future strategy work
+
+The public repo describes this workflow at the system level only. The private repo keeps the production scripts, API calls, scoring details, prompts, and raw data.
