@@ -2,32 +2,24 @@
 
 ## AI Systems Need Structure
 
-Strong prompts are useful, but workflows need clear inputs, outputs, review states, logs, and failure points. Kourai became easier to reason about once PHINN work was routed through repeatable tasks.
+Strong prompts are useful, but product behavior needs clear inputs, outputs, review states, logs, and failure paths. Kourai became easier to reason about once PHINN work was routed through repeatable tasks and persisted records.
 
 ## Relational Memory Changes the Product
 
-Moving from JSON files to a relational database made the project feel more like a product system. Account context, run history, content records, performance data, and voice learning can now connect instead of living as separate artifacts.
+Moving from loose artifacts to SQLite made the project feel more like a real workflow system. Account context, run history, content records, performance data, voice learning, and chat sessions can now connect across workflows.
 
-## Migrations Should Start Early
+## Voice Needs Context
 
-Schema migrations are easier to introduce before the database becomes large and hard to change. Version tracking, validation, and migration history make future changes less risky.
+Original posts, replies, and quote/commentary-style posts are not the same writing task. Separating those contexts makes learned voice more useful and reduces the risk of flattening every output into one generic style.
 
-## Temporary Databases Make Testing Safer
+## User Control Needs Guardrails
 
-Disposable temporary databases are useful for validating setup and bootstrap behavior without risking the active local database. They make end-to-end workflow testing more repeatable.
+Voice overrides are useful only if they cannot weaken core safety behavior. Kourai's effective-voice direction keeps user preferences layered under safety precedence.
 
-## Backups Need Their Own Boundary
+## Chat Is a Backend Orchestration Problem
 
-Backups protect the local database, but they should not be confused with public artifacts. Keeping backups separate from active databases also makes repository safety easier.
+The important chat milestone is not visual interface polish. The harder backend problem is intent classification, context selection, approval routing, persistence, and safe task execution.
 
-## Every Workflow Record Needs Ownership Context
+## Validation Should Follow the Workflow
 
-Connecting workflow records to account context is essential for a product that may support multiple users, social accounts, campaigns, and platforms.
-
-## Validate the Whole Bootstrap
-
-Testing isolated scripts is helpful, but the real confidence comes from validating the full bootstrap path: database setup, migrations, backup creation, account sync, workflow execution, reports, and safety mode.
-
-## AI Coding Tools Still Need Review
-
-Codex can inspect, modify, validate, and document a codebase quickly, but architecture decisions, test results, public/private boundaries, and product claims still need careful human review.
+Testing isolated scripts helps, but confidence improves when validation covers database setup, migrations, backups, learning behavior, effective voice, chat orchestration, and live-posting protection.

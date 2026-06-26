@@ -2,12 +2,12 @@
 
 ## Summary
 
-The private Kourai build now has a SQLite-backed workflow foundation with account-aware memory, schema migrations, backups, reporting, and inspection tools. This update captures the system progress without publishing production implementation details.
+Kourai moved from loose artifact storage toward SQLite-backed workflow memory with account-aware records, migration tracking, backups, reporting, and inspection tools.
 
 ## Completed
 
-- Replaced loose artifact storage with structured SQLite workflow memory.
-- Added account-aware records for users, social accounts, platform connections, runs, content workflow outputs, performance signals, and historical learning inputs.
+- Replaced loose workflow artifacts with structured SQLite memory.
+- Added account-aware records for users, social accounts, platform connections, workflow runs, content outputs, performance signals, and historical learning inputs.
 - Added migration tracking with foundation and historical-ranking migrations.
 - Added backup support for setup, migration, and testing workflows.
 - Added human-readable exports, account reports, performance reports, database viewing, and analytics exploration.
@@ -20,7 +20,7 @@ The private Kourai build now has a SQLite-backed workflow foundation with accoun
 - Schema migration planning
 - Backup and validation practices
 - Analytics and reporting design
-- Public/private documentation hygiene
+- Secure public documentation
 
 ## Validation
 
@@ -31,17 +31,8 @@ The private Kourai build now has a SQLite-backed workflow foundation with accoun
 
 ## Still in Development
 
-- Historical-post importing
-- Adaptive voice profiles
+- Larger historical datasets
+- Adaptive voice profile refinement
 - Performance-based recommendations
-- Account memory and strategy-history interfaces
+- Account memory and strategy-history views
 - Additional platform support
-
-## Kept Private
-
-- Production source code
-- Exact prompts and prompt chains
-- API logic and credentials
-- Local databases and backups
-- Real social-account data
-- Proprietary scoring and ranking logic

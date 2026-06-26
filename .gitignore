@@ -13,3 +13,4 @@ venv/
 *.sqlite
 *.sqlite3
 *.db
+codex_update_kourai_skill_tree.md

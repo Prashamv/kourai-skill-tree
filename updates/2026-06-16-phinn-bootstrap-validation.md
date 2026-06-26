@@ -15,7 +15,7 @@ The private Kourai build validated the PHINN bootstrap path against a fresh temp
 - Ran the social-account synchronization task.
 - Used analyze-only autonomy for the workflow.
 - Forced live posting off during testing.
-- Enabled OpenAI enrichment when configuration was available.
+- Enabled optional model enrichment when configuration was available.
 
 ## Skills Demonstrated
 
@@ -41,11 +41,3 @@ The private Kourai build validated the PHINN bootstrap path against a fresh temp
 - Performance-based recommendation flow
 - Multi-social-account workflow validation
 - User-facing account and strategy-history views
-
-## Kept Private
-
-- Local usernames and private paths
-- Credentials and environment files
-- Production database contents
-- Exact implementation logic
-- Proprietary prompts, scoring, and ranking details

@@ -1,31 +1,31 @@
 # Reading Guide
 
-This repo is organized as a public case study for Kourai. It is designed to be readable without exposing the private product codebase.
+This repo is organized as a public case study for Kourai and PHINN. It explains the system design and learning process without publishing production implementation details.
 
 ## Fast Path
 
 1. Read [Project Overview](01-project-overview.md) for the product prototype.
-2. Read [Architecture](02-architecture.md) for the system model.
-3. Read [Workflow Breakdown](03-workflow-breakdown.md) for the main pipeline.
-4. Read [Skill Tree](04-skill-tree.md) for the builder skills developed.
-5. Read [Updates](../updates/README.md) for dated progress notes.
-6. Read [Private vs Public](08-private-vs-public.md) before adding anything new.
+2. Read [Architecture Overview](architecture-overview.md) for the backend system model.
+3. Read [Skill Tree](skill-tree.md) for evidence-based skill categories.
+4. Read [Validation Summary](validation-summary.md) for tested capabilities.
+5. Read [Roadmap](06-roadmap.md) for implemented, active, and planned work.
+6. Read [Updates](../updates/README.md) for dated milestones.
 
 ## Folder Purpose
 
-- `docs/` contains durable explanations of the product, architecture, roadmap, and lessons
-- `updates/` contains dated build notes that can be appended over time
-- `diagrams/` contains safe high-level Mermaid diagrams
-- `examples/` contains fake example records and outputs
-- `mock-code/` contains simplified examples only
+- `docs/` contains durable explanations of product direction, architecture, skills, validation, and roadmap.
+- `updates/` contains dated public-safe milestones.
+- `diagrams/` contains high-level Mermaid diagrams.
+- `examples/` contains fictional example records and outputs.
+- `mock-code/` contains simplified examples only.
 
 ## Update Pattern
 
 When a private build milestone happens, add a short file under `updates/` and link it from `updates/README.md`. Keep the update focused on:
 
 - what changed at the system level
-- what skill or product lesson it represents
-- what remains private
-- what the next public-safe milestone is
+- what skills or product lessons it represents
+- what was validated
+- what remains in development
 
-Do not copy private source code, prompts, credentials, real account data, database files, database backups, raw social content, or proprietary scoring logic into this repo.
+Do not copy production source code, prompts, persona instructions, credentials, environment values, real account data, database files, raw social content, exact scoring formulas, or proprietary decision rules into this repo.

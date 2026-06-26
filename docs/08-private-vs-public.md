@@ -1,32 +1,27 @@
-# Private vs Public Development
+# Public Repository Boundary
 
-Kourai is being developed as a private product codebase with a separate public case-study repository.
+Kourai is developed in a separate private product repository. This public repository is a portfolio and learning case study.
 
-The public repo is meant to show product thinking, architecture, skills, roadmap, and sanitized progress. It is not meant to expose the production system.
+## Public-Safe Material
 
-## Safe to Publish
-
-- Sanitized architecture
+- Sanitized architecture concepts
 - High-level diagrams
-- Mock records
+- Fictional examples
 - Generalized workflow descriptions
 - Skill documentation
-- Test summaries without secrets or user data
-- Public roadmap notes
-- Portfolio-oriented lessons learned
+- Validation summaries without private data
+- Roadmap notes
+- Lessons learned
 
-## Must Remain Private
+## Excluded Material
 
 - Production source code
-- Exact prompts and prompt chains
-- Credentials and environment files
-- Databases and backups
-- Real social-account data
-- Private analytics
-- Proprietary scoring and ranking logic
-- Live posting integrations
-- Internal agent instructions
+- Prompts, prompt chains, or persona instructions
+- Credentials or environment values
+- Real databases, exports, account data, or analytics
+- Exact scoring formulas
+- Internal target-selection logic
+- Proprietary decision rules
+- Private file paths, handles, or identifiers
 
-## Rule of Thumb
-
-Public material should explain what the system does, what skills were developed, and how the product is structured. Private material includes anything that would reveal implementation details, account data, credentials, prompts, or proprietary automation logic.
+The goal is to explain the system's growth without publishing the private implementation.
